@@ -2,92 +2,110 @@
 <html>
 
 <head>
+    <!-- 页面标题 -->
     <title>Home</title>
+
+    <!-- 引入样式表 -->
     <link rel="stylesheet" type="text/css" href="assets/css/vno.css">
     <link rel="stylesheet" type="text/css" href="assets/css/iconfont.css">
 </head>
 
 <body>
-    <header id="panel" class="panel-cover">
-        <div class="panel-main">
-            <div class="panel-main__inner panel-inverted">
-                <div class="panel-main__content">
-                    <div class="ih-item circle effect right_to_left">            
-                        <a href="#" title="" class="blog-button">
-                            <div class="img"><img src="https://avatars.githubusercontent.com/u/118408678?v=4" alt="img" class="js-avatar iUp profilepic"></div>
-                            <div class="info iUp">
-                                <div class="info-back">
-                                    <h2> 
-                                        
-                                            MoveForward
-                                        
-                                    </h2>
-                                    <p>
-                                        
-                                            2024 · 無限進步
-                                        
-                                    </p>
-                                </div>
+<!-- 页面头部 -->
+<header id="panel" class="panel-cover">
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content">
+                <!-- 头像和博客信息 -->
+                <div class="ih-item circle effect right_to_left">
+                    <a href="#" title="" class="blog-button">
+                        <div class="img"><img src="assets/js/images/kang.png" alt="img" class="js-avatar iUp profilepic"></div>
+                        <div class="info iUp">
+                            <div class="info-back">
+                                <!-- 博客标题和描述 -->
+                                <h2>
+                                    MoveForward
+                                </h2>
+                                <p>
+                                    2024 · 無限進步
+                                </p>
                             </div>
-                        </a>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 博客标题、副标题和分隔线 -->
+                <h1 class="panel-cover__title panel-title iUp">
+                    <a href="#" title="Dmego Home">wqKang</a>
+                </h1>
+                <p class="panel-cover__subtitle panel-subtitle iUp">Believe you can and you're halfway there.</p>
+                <hr class="panel-cover__divider iUp" />
+
+                <!-- 个人描述和学校校训 -->
+                <p id="description" class="panel-cover__description iUp">勤奋、严谨、求实、创新
+                    <br/>
+                    <strong>华北水利水电大学校训</strong>
+                </p>
+
+                <!-- 导航菜单 -->
+                <div class="navigation-wrapper iUp">
+                    <div>
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                                <!-- 首页链接 -->
+                                <li class="navigation__item">
+                                    <a href="index.html" class="blog-button">首页</a>
+                                </li>
+
+                                <!-- 简历链接 -->
+                                <li class="navigation__item">
+                                    <a href="https://r.dmego.cn" class="blog-button" target="_blank">简历</a>
+                                </li>
+
+                                <!-- 关于链接 -->
+                                <li class="navigation__item">
+                                    <a href="https://dmego.cn/about/" class="blog-button" target="_blank">关于</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <h1 class="panel-cover__title panel-title iUp">
-                        <a href="#" title="Dmego Home">wqKang</a>
-                    </h1>
-                    <p class="panel-cover__subtitle panel-subtitle iUp">Believe you can and you're halfway there.</p>
-                    <hr class="panel-cover__divider iUp" />
-                    <p id="description" class="panel-cover__description iUp">如何得与凉风约, 不共尘沙一并来!
-                        <br/>
-                        <strong>-「中牟道中」</strong>
-                    </p>
-                    <div class="navigation-wrapper iUp">
-                        <div>
-                            <nav class="cover-navigation cover-navigation--primary">
-                                <ul class="navigation">
-                                    <li class="navigation__item">
-                                        <a href="index.html" class="blog-button">首页</a>
-                                    </li>
-                             
-                                    <li class="navigation__item">
-                                        <a href="https://r.dmego.cn" class="blog-button" target="_blank">简历</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://dmego.cn/about/" class="blog-button" target="_blank">关于</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="iUp">
-                            <nav class="cover-navigation navigation--social">
-                                <ul class="navigation">
-                                    <li class="navigation__item">
-                                        <a href="https://github.com/Kangwenqiao" title="github" target="_blank">
-                                            <i class='social iconfont icon-github'></i>
-                                            <span class="label">github</span>
-                                        </a>
-                                    </li>
-                                
+                    <div class="iUp">
+                        <!-- 社交链接导航 -->
+                        <nav class="cover-navigation navigation--social">
+                            <ul class="navigation">
+                                <!-- GitHub链接 -->
+                                <li class="navigation__item">
+                                    <a href="https://github.com/Kangwenqiao" title="github" target="_blank">
+                                        <i class='social iconfont icon-github'></i>
+                                        <span class="label">github</span>
+                                    </a>
+                                </li>
 
-                                    
-                                    <li class="navigation__item">
-                                        
-                                        <a href="mailto:wenqiaokang@outlook.com" title="email">
-    										<i class='social iconfont icon-email'></i>
-    											<span class="label">email</span>
-										</a>
-
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+                                <!-- 邮件链接 -->
+                                <li class="navigation__item">
+                                    <a href="mailto:wenqiaokang@outlook.com" title="email">
+                                        <i class='social iconfont icon-email'></i>
+                                        <span class="label">email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
-            <div class="panel-cover--overlay cover-slate"></div>
         </div>
-        <div class="remark iUp">
-        </div>
-		<script type="text/javascript" src="assets/js/main.js"></script>
-    </header>
+
+        <!-- 遮罩层 -->
+        <div class="panel-cover--overlay cover-slate"></div>
+    </div>
+
+    <!-- 备注部分 -->
+    <div class="remark iUp">
+    </div>
+
+    <!-- 引入主要的JavaScript文件 -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</header>
 </body>
+
 </html>

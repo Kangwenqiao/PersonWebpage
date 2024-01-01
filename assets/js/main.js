@@ -52,10 +52,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 使用本地图片路径的示例
     getLocalImages([
-        "image1.png",
-        "image2.png",
-        "image3.png",
-        // 根据需要添加更多图片路径
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg",
+        "image5.jpg",
+        "image6.jpg",
+        "image7.jpg",
+        "image8.jpg",
+        "image9.jpg"
     ]);
 
     // 应用动画
